@@ -100,7 +100,7 @@ ul{
     align-items: center;
 }
 .gr{
-    background-color: gray;
+    background-color: #f6f6f6;
 }
 .main-big-content{
     width: 50%;
@@ -110,7 +110,6 @@ ul{
     width: 90%;
 }
 .main-small-content{
-    background-color: #ffc0cb;
     width: 30%;
     height: 80%;
 }
