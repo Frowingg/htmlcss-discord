@@ -95,7 +95,7 @@ ul{
 
 .section_main{
     display: flex;
-    height: 450px;
+    height: 600px;
     justify-content: center;
     align-items: center;
 }
@@ -103,14 +103,23 @@ ul{
     background-color: gray;
 }
 .main-big-content{
-    background-color: #1e90ff;
-    width: 45%;
+    width: 50%;
     height: 80%;
+}
+.main-big-content img{
+    width: 90%;
 }
 .main-small-content{
     background-color: #ffc0cb;
-    width: 35%;
+    width: 30%;
     height: 80%;
+}
+.main-small-content h2{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.main-small-content p{
+    line-height: 25px;
 }
 .last{
     height: 800px;
