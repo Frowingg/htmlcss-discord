@@ -127,12 +127,21 @@ ul{
     height: 90%;
     width: 60%;
     text-align: center;
+    display: flex;
+    flex-direction: column;
 }
 .green_box h2{
     font-size: 39px;
 }
 .green_box p{
     margin-top: 30px;
+}
+.green_box div{
+    color: white;
+    background-color: #7289da;
+    border-radius: 25px;
+    align-self: center;
+    padding: 10px 20px ;
 }
 .footer-top{
     display: flex;
