@@ -126,7 +126,13 @@ ul{
 .green_box{
     height: 90%;
     width: 60%;
-    background-color: green;
+    text-align: center;
+}
+.green_box h2{
+    font-size: 39px;
+}
+.green_box p{
+    margin-top: 30px;
 }
 .footer-top{
     display: flex;
