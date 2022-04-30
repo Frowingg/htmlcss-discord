@@ -76,7 +76,7 @@ ul{
     font-size: 15px;
 
 }
-.menu li a{
+.link{
     text-decoration: none;
     color: white;
 }
@@ -121,11 +121,11 @@ ul{
     line-height: 25px;
 }
 .last{
-    height: 800px;
+    height: 900px;
 }
 .green_box{
     height: 90%;
-    width: 60%;
+    width: 80%;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -136,7 +136,7 @@ ul{
 .green_box p{
     margin-top: 30px;
 }
-.green_box div{
+.blue-but{
     color: white;
     background-color: #7289da;
     border-radius: 25px;
@@ -145,30 +145,51 @@ ul{
 }
 .footer-top{
     display: flex;
-    height: 400px;
+    height: 430px;
     justify-content: center;
     background-color: #23272a;
-    border-bottom: 1px solid #ccc;
     padding-top: 1%;
-}
-.end{
-    height: 100px;
+    
 }
 .footer-small-content{
-    background-color: #f08080;
     width: 20%;
-    height: 90%;
+    margin: 30px 0;
+}
+.footer-small-content h3{
+    font-size: 30px;
+    color: #7289da;
+}
+.footer-small-content img{
+    width: 30px;
+    margin-top: 15px;
+    display: inline;
+    vertical-align: middle;
+}
+.footer-small-content p{
+    display: inline;
+    vertical-align: middle;	
+    color: white;
+}
+.footer-small-content i{
+    color: white;
+    width: 15px;
+    margin-right: 15px;
+    margin-top: 15px;
 }
 .footer-big-content{
-    background-color: #20b2aa;
-    width: 40%;
-    height: 90%;
+    margin-top: 30px;
+    width: 60%;
     display: flex;
     justify-content: flex-start;
 }
 .footer-column{
-    border: 1px dotted black;
     width: calc(100% / 4);
+}
+.footer-column li{
+    padding: 7px;
+}
+.footer-column .ul-title{
+    color: #7289da;
 }
 .footer-bottom{
     background-color: #23272a;
@@ -176,13 +197,13 @@ ul{
     justify-content: center;
 }
 .footer-bottom-content{
-    background-color: #20b2aa;
-    width: 60%;
+    border-top: 1px solid #7289da;
+    width: 80%;
     display: flex;
     justify-content: space-between;
+    margin-top: 30px;
 }
 .buttons{
-    background-color: #f08080;
     margin: 20px 0;
     padding: 5px;
 }
